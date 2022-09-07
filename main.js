@@ -64,7 +64,7 @@ document.writeln(`Функція №6: ${countLetter('e', 'coffee')}<br>`)
 
 //getRandomPassword(number)
 
-function getRandomPassword(n) {
+function getRandomPassword(n=8) {
     let e = 1;
 
     if (n > 0) {
@@ -80,7 +80,7 @@ function getRandomPassword(n) {
 return Math.floor(Math.random() * e);
 }
 
-document.writeln(`Функція №9: ${getRandomPassword(5)}<br>`)
+document.writeln(`Функція №9: ${getRandomPassword()}<br>`)
 
 
 
